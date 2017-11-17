@@ -17,9 +17,9 @@ class App extends Component {
       <Router history={history}>
         <div className="main">
           <Nav />
-          <Route exact path="/one" component={One} />
-          <Route exact path="/two" component={Two} />
-          <Route exact path="/three" component={Three} />
+          <Route exact path="/css-grids/one" component={One} />
+          <Route exact path="/css-grids/two" component={Two} />
+          <Route exact path="/css-grids/three" component={Three} />
           {/* <Route exact path="/four" component={Four} />
           <Route exact path="/five" component={Five} /> */}
         </div>

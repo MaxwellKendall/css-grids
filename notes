@@ -1,0 +1,25 @@
+// grid container:
+
+A grid container is an element that has the display grid applied; its the direct parent of all the grid items.
+
+// grid items
+
+** direct ** descendants of the grid-container
+
+// gird line
+
+dividing line that make up the structure of the grid; i.e., vertical or horizontal.
+
+
+
+// grid track
+
+the space between two adjacent grid lines; like columns of the grid
+
+// grid cell
+
+the space between two adjacent row and two adjacent column grid lines
+
+// grid area
+
+the total space surrounded by four grid lines

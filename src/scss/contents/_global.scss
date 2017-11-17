@@ -1,0 +1,9 @@
+.wrapper {
+   & > div {
+    background: #eee;
+    padding: 1em;
+    &:nth-child(odd){
+      background: #ddd;
+    }
+  }
+}

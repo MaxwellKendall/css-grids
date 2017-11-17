@@ -15,10 +15,10 @@ export default class Nav extends Component {
         <Link to="three">
           Part Three
         </Link>
-        {/* <Link to="one">
-          Part One
+        <Link to="four">
+          Part Four
         </Link>
-        <Link to="one">
+        {/* <Link to="one">
           Part One
         </Link> */}
       </div>

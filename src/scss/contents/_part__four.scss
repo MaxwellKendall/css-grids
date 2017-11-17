@@ -1,0 +1,22 @@
+.wrapper {
+  grid-template-areas:
+  "header" | "right-justified-header"
+  "body" | "body-right-justified"
+  "footer";
+  grid-template-columns: repeat(2 2fr);
+  .item-a {
+    grid-area: header;
+  }
+  .item-b {
+    grid-area: right-justified-header;
+  }
+  .item-c {
+    grid-area: body;
+  }
+  .item-d {
+    grid-area: body-right-justified;
+  }
+  .item-f {
+    grid-area: footer;
+  }
+}

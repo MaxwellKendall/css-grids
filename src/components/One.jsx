@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 export default class One extends Component {
+  declareSubject = () => {}
   render () {
     return (
       <div className="wrapper">
@@ -16,6 +17,25 @@ export default class One extends Component {
         <div>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, nisi, repellat. Velit deleniti commodi nemo magni totam reprehenderit laudantium soluta eligendi libero quaerat neque quas, unde ipsam iusto, nisi architecto.
         </div>
+        <code className="code">
+          <pre className="code__content">{
+            `.wrapper {
+              display: grid;
+              grid-template-columns: 40% 30% 40%;
+              /*grid-column-gap: 1em;
+              grid-row-gap: 1em;*/
+              grid-gap: 1em;
+              div {
+                background: #eee;
+                padding: 1em;
+                :nth-child(odd){
+                  background: #ddd;
+                }
+              }
+            }`
+          }
+          </pre>
+        </code>
       </div>
     );
   }
